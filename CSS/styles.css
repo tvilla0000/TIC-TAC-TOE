@@ -1,0 +1,111 @@
+/* *, *::before, *::after {
+    box-sizing: border-box;
+} */
+
+@import "https://fonts.googleapis.com/css?family=Rancho&effect=fire-animation";
+
+
+.font-effect-fire-animation {
+    font-size: 125px;
+    margin: 40px 0;
+    text-align: center;
+    color: black;
+    text-shadow: 0px -1px 2px white,
+0px -3px 6px rgb(7, 235, 52),
+0px -6px 12px rgba(33, 145, 2, 0.913),
+0px -10px 20px rgb(19, 123, 3),
+0px -15px 30px rgb(2, 118, 6),
+0px -21px 42px rgba(34, 82, 2, 0.892);
+animation:fire 0.01s ease infinite,colorSpin 1s linear infinite;
+font-family:Sans-serif;
+
+}
+
+@keyframes colorSpin{
+    to{filter:hue-rotate(360deg)}
+}
+
+td div {
+    margin: 0 auto;
+    height: 25vmin;
+    width: 25vmin;
+    pointer-events: none;
+    border-radius: 5px;
+}
+
+td {
+    height: 25vmin; 
+    width: 25vmin; 
+    border-right: 5px solid lime;
+    border-bottom: 5px solid lime;
+    border-left: 5px solid lime;
+    border-top: 5px solid lime;
+    border-radius: 10%;
+    background-color: rgba(0, 0, 0, 0.53);
+    
+}
+
+#table {
+    padding-left: 30%;
+}
+
+/* section.board{
+    display: grid;
+    grid-gap: .5vmin;
+    grid-template-columns: repeat(3, 25vmin);
+    grid-template-rows: repeat(3, 25vmin);
+    border-radius: 25%;
+    justify-content: center;
+    height: 50vh;
+} */
+
+/* section.board div {
+    border: 5.5px solid lime; 
+    border-radius: 15%;
+    size: 1vmin;
+    background-color: rgba(0, 0, 0, .7);
+} */
+
+body {
+    margin: 0;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(/Users/bigboiii/TIC_TAC_TOE/images/UNADJUSTEDNONRAW_thumb_8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%; 
+}
+
+
+
+#msg {
+    float: left;
+    font-size: 55px;
+    text-shadow:0px 5px lime;
+    
+
+}
+
+#MORTY {
+    height: 25vmin;
+    width: 25vmin;
+    border-radius: 10%;
+}
+
+#RICK {
+    height: 25vmin;
+    width: 25vmin;
+    border-radius: 10%;
+}
+
+#Portal {
+    height: 25vmin;
+    width: 25vmin;
+    border-radius: 10%;
+}
+
+#Theme {
+    float: left;
+}
+
